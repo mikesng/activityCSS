@@ -1,0 +1,56 @@
+/*p color*/
+#external{
+	color: yellow;
+	
+}
+
+/*Universal Selector*/
+*{
+	font-size: 20px;
+	font-family: "Verdana", monospace;
+
+}
+
+/*Type Selector*/
+h1{
+	font-size: 3rem;
+}
+
+/*ID Selector*/
+h2{
+	text-transform: uppercase;	
+}
+
+/*Class Selector*/
+.learnList{
+	background: #aed19d;
+}
+
+/*Attribute Selector*/
+li[type]{
+
+	border-style: solid ;
+	border-color: rgb(157, 176, 209);
+}
+
+/*Adjacent Sibling*/
+#otherThings + img{
+	list-style-type: square;
+}
+
+/*Descendant Selector*/
+section img{
+	height: 300px;
+	border-width: 300px;
+	border-radius: 150px;
+}
+
+/*child Selector*/
+body > section > ul{
+	letter-spacing: 10px;
+}
+
+/*generic Selector*/
+p.center{
+	text-align: center;
+}
